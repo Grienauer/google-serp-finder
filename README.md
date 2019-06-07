@@ -71,7 +71,7 @@ Position 0 means: Site is not under the top 100 of Google Serp
 
 ## How it works
 
-The Google SERP Finder works without the Google Search API. This is more a Page scraper. The node-server has several tasks tasks to execute in order to get the google position of a domain:
+The Google SERP Finder works without the Google Search API. This is more a Page scraper. The node-server has several tasks to execute in order to get the google position of a domain:
 
 * Getting the 100 Google search results with this query ``http://www.google.com/search?num=100&complete=0&q=``
   It is important to turn off the google suggestion with ``complete=0`` off, to get the result page
